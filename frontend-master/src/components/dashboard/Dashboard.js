@@ -102,10 +102,10 @@ class Dashboard extends PureComponent {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button className={classes.button} size="medium" color="primary" variant="raised" component={Link} to={`/products/new`}>
+            <Button className={classes.button} size="medium" color="primary" variant="raised" component={Link} to={`/classes/new`}>
               Voeg een les toe
             </Button>
-            <Button className={classes.button} size="medium" color="primary" variant="raised" component={Link} to={`/profiles/${currentProfileId}/products`}>
+            <Button className={classes.button} size="medium" color="primary" variant="raised" component={Link} to={`/profiles/${currentProfileId}/classes`}>
               Bekijk mijn lessen
             </Button>
           </CardActions>
